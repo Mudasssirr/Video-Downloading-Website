@@ -1,0 +1,71 @@
+body {
+    background-color: #e9e9e9;
+    font-family: sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-cards {
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    margin-top: 20px;
+}
+
+.main-cards:active {
+    opacity: 0.8;
+}
+
+.facebook-background {
+    background: linear-gradient(0deg, rgba(0, 22, 249, 1) 20%, rgba(45, 255, 246, 1) 62%);
+}
+
+.instagram-background {
+    background: linear-gradient(0deg, rgba(114, 44, 220, 1) 24%, rgba(255, 84, 0, 1) 93%);
+}
+
+.tiktok-background {
+    background: linear-gradient(0deg, rgba(255, 45, 165, 1) 25%, rgba(0, 221, 249, 1) 81%);
+}
+
+.youtube-background {
+    background: linear-gradient(0deg, rgba(249, 0, 0, 1) 2%, rgba(255, 150, 45, 1) 37%);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-img {
+    width: 30px;
+}
+
+.text-container {
+    color: white;
+    text-align: center;
+}
+
+.custom-nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* FOR INTRO.JSX */
+
+.intro-heading{
+    color: green;
+    text-align: center;
+}
+
+.media-heading{
+    /* color: white; */
+    text-align: center;
+}
